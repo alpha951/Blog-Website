@@ -2,6 +2,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -11,25 +12,60 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
-.navbar-nav  li a:hover {
+
+.navbar-nav li a:hover {
     color: #1abc9c !important;
 }
 
+.h1_home {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .footer-padding {
-	padding-bottom: 60px;
+    padding-bottom: 1px;
+}
+
+.post_h2 {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.post_content {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
 }
 
 .footer {
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #1abc9c;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1abc9c;
+}
+
+.footer_home {
+    position: sticky;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1abc9c;
 }
 
 .footer p {
-	margin-top: 25px;
-	font-size: 12px;
-  color: #fff;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.footer_home p {
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Baloo Bhai 2', cursive;
 }

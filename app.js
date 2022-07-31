@@ -20,6 +20,7 @@ let posts = [];
 
 mongoose.connect(
   "mongodb+srv://alpha951:keshavsmart@cluster0.ov1ir.mongodb.net/blogDB"
+  // 'mongodb://localhost:27017/blogDB'
 );
 
 const postSchema = {

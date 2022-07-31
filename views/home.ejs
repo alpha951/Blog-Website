@@ -1,23 +1,23 @@
 <%- include("partials/header.ejs") -%>
-    <h1>
+    <h1 class="h1_home">
         Home
     </h1>
-    <h2>
+    <h2 class="post_h2">
         <%=startingContent.title %>
     </h2>
-    <p>
+    <p class="post_content">
         <%=startingContent.content%>
     </p>
     <%for(let i=0;i<posts.length;i++){ %>
         <% if(posts.length>1 && i==0) {%>
             <% ++i; %>
                 <% } %>
-                    <h2>
+                    <h2 class="post_h2">
                         <%= posts[i].title%>
                     </h2>
-                    <p>
+                    <p class="post_content">
                         <%=posts[i].content.substring(0,100); %>...
                             <a href="/posts/<%=posts[i]._id%>">Read More</a>
                     </p>
                     <% } %>
-                        <%- include("partials/footer.ejs") -%>
+                        <%- include("partials/footer_home.ejs") -%>
