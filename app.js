@@ -1,10 +1,13 @@
 //jshint esversion:6
 const express = require("express");
 const dotenv = require("dotenv");
+const path = require('path');
 dotenv.config();
 const bodyParser = require("body-parser");
 const app = express();
 
+app.set('views', path.join(__dirname, 'views'))
+app.engine('ejs', require('ejs').renderFile);
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
