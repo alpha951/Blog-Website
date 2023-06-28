@@ -1,4 +1,5 @@
 <%- include("partials/header.ejs") -%>
+    <div class="content">
     <h1 class="h1_home">
         Home
     </h1>
@@ -13,11 +14,15 @@
             <% ++i; %>
                 <% } %>
                     <h2 class="post_h2">
-                        <%= posts[i].title%>
+                        <a href="/posts/<%=posts[i]._id%>"><%= posts[i].title.substring(0,100);%>...</a>
+                        
                     </h2>
                     <p class="post_content">
-                        <%=posts[i].content.substring(0,100); %>...
-                            <a href="/posts/<%=posts[i]._id%>">Read More</a>
+                        <%=posts[i].content.substring(0,400); %>
+                        <% if(posts[i].content.length > 400){ %>
+                            <a href="/posts/<%=posts[i]._id%>">...Read More</a>
+                       <% } %>
                     </p>
                     <% } %>
+                </div>
                         <%- include("partials/footer_home.ejs") -%>

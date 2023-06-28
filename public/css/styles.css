@@ -1,71 +1,124 @@
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+/* .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+} */
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+}
+
+.contact{
+  flex : 1;
+}
+.about{
+  flex : 1;
+}
+.post{
+  flex : 1;
+}
+.form-container{
+  flex : 1;
+}
+
+ a:hover {
+  color: #1abc9c !important;
 }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
 
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+  color: #1abc9c !important;
 }
 
 .h1_home {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  margin : 5px 50px;
 }
 
 .footer-padding {
-    padding-bottom: 1px;
+  padding-bottom: 1px;
 }
 
 .post_h2 {
-    font-family: 'Baloo Bhai 2', cursive;
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 5px 50px;
+  text-align: justify;
+
 }
 
 .post_content {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: larger;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: larger;
+  margin: 5px 50px;
+  text-align: justify;
 }
 
 .footer {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #1abc9c;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
 }
 
 .footer_home {
-    position: sticky;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #1abc9c;
+  text-align: center;
+  height: 60px;
+  background-color: #1abc9c;
 }
 
 .footer p {
-    padding-top: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Baloo Bhai 2', cursive;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Baloo Bhai 2", cursive;
 }
 
 .footer_home p {
-    padding-top: 20px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Baloo Bhai 2', cursive;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.form-container{
+    margin : 5px 50px;
+}
+
+textarea {
+  /* resize: none;
+   */
+   margin-left: -1px !important;
+   margin-right: 15px !important;
+}
+
+.contact li {
+  margin: 2px 50px;
+  text-decoration: none;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.contact li a{
+    padding-left: -10px;
+    font-size: large;
 }

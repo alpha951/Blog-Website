@@ -1,8 +1,6 @@
 <%- include("partials/header.ejs") -%>
-    <h2 class="post_h2">
-        <%= title %>
-    </h2>
-    <p class="post_content">
-        <%= postContent %>
-    </p>
-    <%- include("partials/footer.ejs") -%>
+<div class="post">
+  <h2 class="post_h2"><%= title %></h2>
+  <p class="post_content"><%= postContent %></p>
+</div>
+<%- include("partials/footer_home.ejs") -%>
