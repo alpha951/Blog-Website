@@ -21,7 +21,6 @@
 - Create a `.env` file and add your `MONGODB_URI` and `PORT` in it
 - Run `node app.js` to start the server
 # Deployed on Vercel
-<h2>[Daily Journal](https://blog-website-xi-two.vercel.app/)</h2>
-<a></a>
+[Daily Journal] (https://blog-website-xi-two.vercel.app/)
 
 <!-- create a bookmark link markdown -->
