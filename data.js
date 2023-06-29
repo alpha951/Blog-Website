@@ -1,8 +1,9 @@
 exports.homeContent = function () {
   let defaultContent = {
-    title: "Dummy post",
+    title:
+      "The Blog-Website App: A Powerful and Versatile Tool for Creating and Publishing Blogs  ",
     content:
-      "Permanence of the stars finite but unbounded birth culture with pretty stories for which there's little good evidence made in the interiors of collapsing stars? Tingling of the spine star stuff harvesting star light kindling the energy hidden in matter rings of Uranus something incredible is waiting to be known from which we spring. A mote of dust suspended in a sunbeam great turbulent clouds vastness is bearable only through love network of wormholes bits of moving fluff dream of the mind's eye and billions upon billions upon billions upon billions upon billions upon billions upon billions.",
+      "The Blog-Website app is a powerful and versatile tool that can be used by anyone who wants to create and publish a blog. It is easy to use, feature-rich, and secure.The app features individual pages for each post, a text-limit on the home page, and responsive design. It is built on a secure tech stack that includes MongoDB, Express.js, EJS, and Bootstrap. With the Blog-Website app, you can easily create and publish new blog posts, and you can view the blog posts on any device. The app is a great option for anyone who is looking for a way to share their thoughts and ideas with the world.  If you are looking for a powerful and versatile tool to create and publish blogs, the Blog-Website app is a great option. Check it out today!",
   };
   return defaultContent;
 };

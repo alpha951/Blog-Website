@@ -4,7 +4,7 @@ const aboutContent = require("../data").aboutContent;
 const contactContent = require("../data").contactContent;
 
 const getPost = async function (req, res) {
-  const posts = await Post.find({});
+  const posts = await Post.find({}).sort({ updatedAt: -1 });
   res.render("home", {
     startingContent: homeStartingContent,
     posts: posts,
